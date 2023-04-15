@@ -1,0 +1,64 @@
+.addprod {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 558px;
+  top: 50px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #252525;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  }
+  
+  .addprod h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .addprod input[type="text"],
+  .addprod input[type="date"],
+  .addprod input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    
+  }
+  
+  .addprod button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+
+  }
+  
+  .addprod button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
